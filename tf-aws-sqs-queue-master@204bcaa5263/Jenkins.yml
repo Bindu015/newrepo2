@@ -1,0 +1,9 @@
+---
+pipelineType: iac-tf-mod-publish
+
+terraform_module_dir: 'tf-aws-sqs-queue'
+terraform_module_resource: 'sqs-queue'
+terraform_module_version: '0.2.2'
+artifactory_jenkins_cred: '5b03462f-eb9c-4e43-82c7-3c7313564757'
+artifactory_test_name: 'tf-modules-dtis-test'
+artifactory_prod_name: 'tf-modules-dtis-prod'          

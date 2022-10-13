@@ -1,0 +1,10 @@
+awsConfig:
+  iamDomain: devtools
+  iamProject: devtools
+  accountId: '230774702945'
+  jenkinsCredentialId: sts.devtools.deployer
+  cloud: cloudplus
+  region: us-east-1
+varfile: dev_test.tfvars
+module: sqs-queue
+env: dev
